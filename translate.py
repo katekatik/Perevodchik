@@ -107,8 +107,8 @@ class Window1(QWidget): # Создаем класс от родителя QWidge
 
     def yandex(self):
 
-        IAM_TOKEN = #здесь был токен (время действия истекло) 't1.123457nuHo3...'
-        folder_id = #здесь был id папки в облаке Яндекса '...'
+        IAM_TOKEN = 't1.123457nuHo3...' #здесь был токен (время действия истекло)
+        folder_id = '...' #здесь был id папки в облаке Яндекса#
         target_language = self.choose_language(self.combobox2)
         source_language = self.choose_language(self.combobox1)
         texts = []
